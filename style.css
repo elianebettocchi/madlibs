@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+ }
+ .red-text {
+    color: #990000;
+ }
+ .yellow-text {
+    color: #cca000;
+ }
+ p, li{
+    font-size: 33px;
+    font-family: Amatic SC;
+    color: white;
+    text-align: justify;
+ }
+ h1{
+    font-size: 60px;
+    font-family: Amatic SC;
+    color: #990000;
+ }
+ input[type=text] {
+    font-size: 33px;
+    font-family: Amatic SC;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+ }
+ input[type=radio] {
+    background-color: black;
+    font-size: 33px;
+ }
+ button{
+   background-color: #990000;
+   font-size: 33px;
+   font-family: Amatic SC;
+ }
+ div{
+ width: 60%;
+ margin: auto;
+ background-image: url(tunel.jpg);
+ background-repeat: no-repeat;
+ background-position: right bottom;
+ background-size: 30%;
+ }
