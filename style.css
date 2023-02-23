@@ -39,7 +39,7 @@ body{
    font-size: 33px;
    font-family: Amatic SC;
  }
- div{
+ .tunnel{
  width: 60%;
  margin: auto;
  background-image: url(tunel.jpg);

@@ -10,29 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon.png" />
-    <div><h1>Beyond</h1>
+    <div class="tunnel"><h1>Beyond</h1>
 <form onSubmit="return false" action="">
-<p><span class="red-text">The darkness is dissipating. You</span> <span class="yellow-text">blink</span> <span class="red-text">and</span> open your eyes. You see
-<input type="text" placeholder="material" id="textOne"> around you.
-You try to move, but you are <input type="text" placeholder="verb (passive form)" id="textTwo">
-inside a <input type="text" placeholder="place or object" id="textThree">.
-Then, you feel a hand pulling you out. It <input type="text" placeholder="verb (present tense)" id="textFour">
-you so that you can now stand over the <input type="text" placeholder="surface" id="textFive">.
-Familiar faces watch you with <input type="text" placeholder="noun or adjective" id="textSix">; 
-there is a powerful energy of <input type="text" placeholder="noun" id="textSeven">
-around and emanating from you. One of them, the one <input type="text" placeholder="adjective" id="textEight">,
-speaks in a <input type="text" placeholder="adjective" id="textNinet"> tone of voice:</p>
+<p><input type="text" placeholder="material" id="textOne"> <input type="text" placeholder="verb (passive form)" id="textTwo"> <input type="text" placeholder="place or object" id="textThree"> <input type="text" placeholder="verb (present tense)" id="textFour"> <input type="text" placeholder="surface" id="textFive"> <input type="text" placeholder="noun or adjective" id="textSix"> <input type="text" placeholder="noun" id="textSeven"> <input type="text" placeholder="adjective" id="textEight"> <input type="text" placeholder="adjective" id="textNine"></p>
+<button type="button" id="button" onclick="createParagraph()">Write:</button>
+<div id="answer"></div>
 <p><em>You have three options at this moment:</p> 
     <ol>
         <li><label for="us"><input type="radio" name="us-back-there" id="us" value="us">you can come with us;</label></li>
         <li><label for="back"><input type="radio" name="us-back-there" id="back" value="back">you can go back to where you were;</label></li>
-        <li><label for="there"><input type="radio" name="us-back-there" id="there" value="there">you can <input type="text" placeholder="verb (present tense)" id="textTen"> 
-            that <input type="text" placeholder="place or construction" id="textThree"> over there.</label></li>
+        <li><label for="there"><input type="radio" name="us-back-there" id="there" value="there">you can cross the tunnel.</label></li>
     </ol>
 </em>
-       <button type="button" id="button" onclick="createParagraph()">Write:</button>
-
 </form></div>
-<div id="answer"></div>
+
+<script src="app.js"></script>
 </body>
 </html>
